@@ -3,7 +3,7 @@
 https://nutribuddy.vercel.app/
 A comprehensive wellness application built with modern web technologies to help users achieve their fitness and nutrition goals.
 
-##Team 7
+## Team 7
 Asif
 Raheel
 Waleed
