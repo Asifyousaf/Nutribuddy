@@ -3,6 +3,15 @@
 https://nutribuddy.vercel.app/
 A comprehensive wellness application built with modern web technologies to help users achieve their fitness and nutrition goals.
 
+## Team 7
+
+- Asif Yousaf
+- Raheel Saeed
+- Waleed Khan
+- Mohammed Awais
+- Taha Nasir
+- Obaidullah
+- 
 ## Features
 
 - Personalized workout plans
