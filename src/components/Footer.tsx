@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaInstagram, FaYoutube, FaTiktok } from 'react-icons/fa';
@@ -72,13 +71,28 @@ const Footer = () => {
               Your personalized wellness companion, helping you achieve your fitness and nutrition goals.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-500 hover:text-purple-600">
+              <a 
+                href="https://www.instagram.com/nutriciousbuddy?igsh=MWplc2JmZXdrZ3Ft" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-gray-500 hover:text-purple-600"
+              >
                 <FaInstagram size={20} />
               </a>
-              <a href="#" className="text-gray-500 hover:text-purple-600">
+              <a 
+                href="https://youtube.com/@nutribuddy11?si=ZCvADGcR5QunrCIy" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-gray-500 hover:text-purple-600"
+              >
                 <FaYoutube size={20} />
               </a>
-              <a href="#" className="text-gray-500 hover:text-purple-600">
+              <a 
+                href="https://www.tiktok.com/@nutri.buddy?_t=ZS-8wSwfwFqg0O&_r=1" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-gray-500 hover:text-purple-600"
+              >
                 <FaTiktok size={20} />
               </a>
             </div>
