@@ -27,8 +27,6 @@ A comprehensive wellness application built with modern web technologies to help 
 - **Frontend**: React 18 with TypeScript
 - **Build Tool**: Vite
 - **Styling**: Tailwind CSS
-- **UI Components**: Shadcn/UI
-- **State Management**: TanStack Query
 - **Routing**: React Router DOM
 - **Backend**: Supabase
 - **Authentication**: Supabase Auth
