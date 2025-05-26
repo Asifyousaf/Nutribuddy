@@ -1,5 +1,4 @@
 
-<<<<<<< HEAD
 # NutriBuddy - Your Personal Wellness Companion
 https://nutribuddy.vercel.app/
 A comprehensive wellness application built with modern web technologies to help users achieve their fitness and nutrition goals.
@@ -58,6 +57,5 @@ This project is built with:
 - TypeScript
 - React
 - Tailwind CSS
->>>>>>> 24ffb764792958c25ba49ae058a55ccfb87e6ac6
 
 This project is for educational purposes.
