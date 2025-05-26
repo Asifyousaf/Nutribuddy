@@ -27,13 +27,13 @@ const Footer = () => {
     setIsSubmitting(true);
     
     try {
-      // Insert email to newsletter_subscribers table
+      // Store newsletter subscription
       const { error } = await supabase
         .from('newsletter_subscribers')
         .insert([{ email }]);
       
       if (error) {
-        if (error.code === '23505') { // Unique violation
+        if (error.code === '23505') {
           toast({
             title: "Already subscribed",
             description: "This email is already subscribed to our newsletter",
@@ -69,16 +69,16 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-bold text-purple-600 mb-4">NutriBuddy</h3>
             <p className="text-gray-600 text-sm mb-4">
-              Your personalized wellness companion, helping you achieve your fitness and nutrition goals with AI-powered guidance.
+              Your personalized wellness companion, helping you achieve your fitness and nutrition goals.
             </p>
             <div className="flex space-x-4">
-              <a href="https://www.instagram.com/nutriciousbuddy/?igsh=MWplc2JmZXdrZ3Ft#" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-purple-600">
+              <a href="#" className="text-gray-500 hover:text-purple-600">
                 <FaInstagram size={20} />
               </a>
-              <a href="https://www.youtube.com/@nutribuddy11?si=ZCvADGcR5QunrCIy" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-purple-600">
+              <a href="#" className="text-gray-500 hover:text-purple-600">
                 <FaYoutube size={20} />
               </a>
-              <a href="https://www.tiktok.com/@nutri.buddy?_t=ZS-8wSwfwFqg0O&_r=1" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-purple-600">
+              <a href="#" className="text-gray-500 hover:text-purple-600">
                 <FaTiktok size={20} />
               </a>
             </div>
